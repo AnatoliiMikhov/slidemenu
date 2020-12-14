@@ -1,4 +1,4 @@
-import MenuContainer from './component/MenuContainer/MenuContainer'
+import MenuContainer from './component/MenuContainer/MenuContainer.jsx'
 import './App.scss';
 
 function App() {

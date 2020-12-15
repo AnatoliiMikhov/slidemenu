@@ -11,7 +11,7 @@ class MenuButton extends PureComponent {
 		console.log("Rendering: MenuButton");
 		return (
 			<button id="roundButton" className="roundButton"
-				onMouseUp={this.props.handleMouseUp}></button>
+				onMouseUp={this.props.handleMouseUp} name="roundButton">buton</button>
 		);
 	}
 }

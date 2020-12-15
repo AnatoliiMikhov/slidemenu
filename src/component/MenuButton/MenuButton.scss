@@ -1,5 +1,6 @@
 .roundButton {
 	background-color: #96D9FF;
+	color: rgba(32, 87, 121, 0);
 	margin-bottom: 20px;
 	width: 50px;
 	height: 50px;
@@ -15,7 +16,7 @@
 		transform: scale(1.2, 1.2);
 	}
 
-	&:active{
+	&:active {
 		border-color: #003557;
 		background-color: #FFF;
 	}

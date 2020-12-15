@@ -1,15 +1,11 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import './MenuButton.scss';
 
-class MenuButton extends Component {
+class MenuButton extends PureComponent {
 
-	shouldComponentUpdate(nextProps, nextState) {
-		if (nextProps.handleMouseUp === this.props.handleMouseUp) {
-			return false;
-		} else {
-			return true;
-		}
-	}
+	/* shouldComponentUpdate(nextProps, nextState) {
+		return (nextProps.handleMouseUp === this.props.handleMouseUp) ? false : true;
+	} */
 
 	render() {
 		console.log("Rendering: MenuButton");
